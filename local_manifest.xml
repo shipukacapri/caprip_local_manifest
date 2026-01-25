@@ -17,7 +17,7 @@
       path="device/motorola/sm6225-common"
       name="shipukacapri/android_device_motorola_sm6225-common"
       remote="github"
-      revision="addition" />
+      revision="dolby-23.1" />
 
    <!-- Kernel tree (your fork) -->
   <project
@@ -49,7 +49,7 @@
 
   <!-- dolby for moto -->
   <project
-    name="shipukacapri/hardware_dolby"
+    name="Evolution-X-Devices/hardware_dolby"
     path="hardware/dolby"
     remote="github"
     revision="bka" />
