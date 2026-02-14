@@ -5,12 +5,12 @@
         name="gitlab"
         fetch="https://gitlab.com/" />
   
-  <!-- Device tree for Motorola G10 Power capri (your fork) -->
+  <!-- Device tree for Motorola G30 caprip (your fork) -->
   <project
       path="device/motorola/caprip"
       name="shipukacapri/android_device_motorola_caprip"
       remote="github"
-      revision="inf-qp2" />
+      revision="luna-qp2" />
 
  <!-- Common device tree for sm6225 platform (your fork) -->
   <project
