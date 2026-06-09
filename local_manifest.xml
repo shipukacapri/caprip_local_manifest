@@ -45,7 +45,7 @@
     name="shipukacapri/android_hardware_motorola"
     path="hardware/motorola"
     remote="github"
-    revision="edited-23.2" />
+    revision="lineage-23.2" />
 
   <!-- dolby for moto -->
   <project
