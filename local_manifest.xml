@@ -7,14 +7,14 @@
       path="device/motorola/caprip"
       name="shipukacapri/android_device_motorola_caprip"
       remote="github"
-      revision="evo-17" />
+      revision="ascp" />
 
  <!-- Common device tree for sm6225 platform (your fork) -->
   <project
       path="device/motorola/sm6225-common"
       name="shipukacapri/android_device_motorola_sm6225-common"
       remote="github"
-      revision="evo-dolby-17" />
+      revision="ascp" />
 
    <!-- Kernel tree (your fork) -->
   <project
