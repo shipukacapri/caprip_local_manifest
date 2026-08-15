@@ -5,28 +5,28 @@
         name="gitlab"
         fetch="https://gitlab.com/" />
   
-  <!-- Device tree for Motorola G10 Power capri (your fork) -->
+  <!-- Device tree  -->
   <project
-      path="device/motorola/caprip"
-      name="shipukacapri/android_device_motorola_caprip"
+      path="device/motorola/capri"
+      name="shipukacapri/android_device_motorola_capri"
       remote="github"
-      revision="inf-qp2" />
+      revision="inf-16-erofs" />
 
- <!-- Common device tree for sm6225 platform (your fork) -->
+ <!-- Common device tree for sm6225 platform -->
   <project
       path="device/motorola/sm6225-common"
       name="shipukacapri/android_device_motorola_sm6225-common"
       remote="github"
-      revision="dolby-23.2" />
+      revision="erofs-dolby" />
 
    <!-- Kernel tree (your fork) -->
   <project
       path="kernel/motorola/sm6225"
-      name="LineageOS/android_kernel_motorola_sm6225"
+      name="shipukacapri/android_kernel_motorola_sm6225"
       remote="github"
-      revision="lineage-23.2" />
+      revision="erofs" />
   
-  <!-- Vendor blobs for capri (your fork) -->
+  <!-- Vendor blobs -->
   <project
       path="vendor/motorola/caprip"
       name="TheMuppets/proprietary_vendor_motorola_caprip"
@@ -47,7 +47,7 @@
     remote="github"
     revision="lineage-23.2" />
 
-  <!-- dolby for moto -->
+   <!-- dolby for moto -->
   <project
     name="Evolution-X-Devices/hardware_dolby"
     path="hardware/dolby"
@@ -95,7 +95,7 @@
     path="vendor/motorola/MotCameraAI-common"
     remote="gitlab"
     revision="android-16" />
-  
+
   <!-- MotoSignatureApp -->
   <project
     name="Deivid21/proprietary_vendor_motorola_MotoSignatureApp"
@@ -109,11 +109,5 @@
     path="vendor/motorola/MotorolaSettingsProvider"
     remote="gitlab"
     revision="android-16" />
-  
-<!-- QCOM vendor SEPolicy (contains device/qcom/sepolicy_vndr/SEPolicy.mk) -->
-
-
-<!-- QCOM policy helpers: hardware/qcom/sepolicy
-     Some BoardConfig/common makefiles expect hardware/qcom policy helpers. -->
 
 </manifest>
