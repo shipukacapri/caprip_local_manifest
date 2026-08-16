@@ -7,8 +7,8 @@
   
   <!-- Device tree  -->
   <project
-      path="device/motorola/capri"
-      name="shipukacapri/android_device_motorola_capri"
+      path="device/motorola/caprip"
+      name="shipukacapri/android_device_motorola_caprip"
       remote="github"
       revision="inf-16-erofs" />
 
