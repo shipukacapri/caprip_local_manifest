@@ -7,14 +7,14 @@
       path="device/motorola/caprip"
       name="shipukacapri/android_device_motorola_caprip"
       remote="github"
-      revision="evo-17" />
+      revision="rising-17" />
 
  <!-- Common device tree for sm6225 platform (your fork) -->
   <project
       path="device/motorola/sm6225-common"
       name="shipukacapri/android_device_motorola_sm6225-common"
       remote="github"
-      revision="evo-dolby-17" />
+      revision="seventeen" />
 
    <!-- Kernel tree (your fork) -->
   <project
@@ -28,14 +28,14 @@
       path="vendor/motorola/caprip"
       name="TheMuppets/proprietary_vendor_motorola_caprip"
       remote="github"
-      revision="lineage-23.2" />
+      revision="lineage-24.0" />
 
    <!-- Common vendor blobs (your fork) -->
   <project
       path="vendor/motorola/sm6225-common"
       name="TheMuppets/proprietary_vendor_motorola_sm6225-common"
       remote="github"
-      revision="lineage-23.2" />
+      revision="lineage-24.0" />
   
 <!-- Motorola hardware (contains hardware/motorola/sepolicy/qti/SEPolicy.mk) -->
 <project
